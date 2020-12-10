@@ -2,6 +2,10 @@ language: python
 python: '3.6'
 # command to install dependencies
 
+arch:
+    - amd64
+    - ppc64le
+
 env:
   global:
     - LD_PRELOAD=/lib/x86_64-linux-gnu/libSegFault.so
